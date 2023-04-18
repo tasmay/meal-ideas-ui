@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3002/api/category'
+const baseUrl = `${window.env.API_BASE_URL}/category`
 
 const getById = async (id) => {
     const response = await axios.get(`${baseUrl}/${id}`)

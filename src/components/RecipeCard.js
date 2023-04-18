@@ -5,7 +5,7 @@ export default function RecipeCard({ post }) {
     return (
         <div key={post.id} className="flex flex-col overflow-hidden shadow-lg">
             <div className="flex-shrink-0">
-              <Link to={`recipe/${post.id}`}>
+              <Link to={`/recipe/${post.id}`}>
                 <img className="h-48 w-full object-cover" src={post.image_url} alt="" />
               </Link>
             </div>

@@ -1,5 +1,5 @@
 import axios from 'axios'
- const baseUrl = 'http://localhost:3002/api/recipes'
+ const baseUrl = `${window.env.API_BASE_URL}/recipes`
 
 const getAll = () => {
     const request = axios.get(baseUrl)

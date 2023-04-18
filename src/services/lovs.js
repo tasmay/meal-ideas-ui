@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3002/api/lovs'
+const baseUrl = `${window.env.API_BASE_URL}/lovs`
 
 const getMealsList = () => {
     const request = axios.get(baseUrl + '/meals')
