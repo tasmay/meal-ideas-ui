@@ -98,7 +98,7 @@ export default function AdvSearchPanel(props) {
                         <SelectMenu val={cuisineValue} onChange={setCuisineValue} buttonLabel="Cuisine" data={cuisinesList}></SelectMenu>
                     </div>
                     <div className="p-2 py-5 w-2/6">
-                        <label htmlFor="Ingredients" className="block text-xs font-medium tracking-wider uppercase text-gray-700">
+                        <label htmlFor="Ingredients" className="block text-xs font-bold tracking-wider uppercase text-gray-700">
                             Ingredients
                         </label>
                         <div className="mt-1 border border-gray-300 bg-white shadow-sm focus:border-lime-500 focus:outline-none focus:ring-1 focus:ring-lime-500 sm:text-sm">
@@ -119,7 +119,7 @@ export default function AdvSearchPanel(props) {
                     </div>
                     <div className="p-2 py-5 w-1/6">
                         <span className="inline-flex">
-                            <label className="block text-xs tracking-wider uppercase font-medium text-gray-700">Time</label>
+                            <label className="block text-xs font-bold tracking-wider uppercase text-gray-700">Time</label>
                             <label className="ml-2 text-xs font-medium text-gray-700">(approx. {sliderValue} minutes)</label>
                         </span>
                         <div className="relative mt-1">

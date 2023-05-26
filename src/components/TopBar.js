@@ -5,10 +5,9 @@ import { PencilSquareIcon } from '@heroicons/react/20/solid'
 
 const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Recipes', href: '/about' },
+    { name: 'Recipes', href: '/#' },
     { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
-    { name: 'Subscribe', href: '/about' },
+    { name: 'Subscribe', href: '/#' },
   ]
   
   export default function TopBar() {
